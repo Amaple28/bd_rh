@@ -677,6 +677,11 @@ COMMIT;
 --FROM funcionario, cargo 
 --WHERE funcionario.Cod_Cargo = cargo.Cod_Cargo;
 
+--SELECT cod_func, nom_func, dta_nascimento
+--FROM funcionario
+--WHERE val_salario >= 200 and val_salario <= 3000
+--ORDER BY dta_nascimento DESC;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -673,6 +673,10 @@ ALTER TABLE `vendedor`
   ADD CONSTRAINT `FK_Funcionario_Vendedor` FOREIGN KEY (`Cod_Func`) REFERENCES `funcionario` (`Cod_Func`);
 COMMIT;
 
+--SELECT cod_func, nom_func, val_salario, Nom_Cargo
+--FROM funcionario, cargo 
+--WHERE funcionario.Cod_Cargo = cargo.Cod_Cargo;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
